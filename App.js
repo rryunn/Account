@@ -18,7 +18,7 @@ export default function App() {
     /*const formattedRow = {
       ...newRow,
       date: newRow.date ? newRow.date.toISOString().split("T")[0] : "",
-    }; //문자열로 변환하여 저장하기 위함.2024-07-01 꼴로*/
+    }; //문자열로 변환하여 저장하기 위함.2024-07-01 꼴로*//
     setRows(
       [...rows, newRow].sort((a, b) => new Date(a.date) - new Date(b.date))
     ); // 날짜 기준으로 내림차순 정렬
