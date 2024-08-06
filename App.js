@@ -43,7 +43,7 @@ export default function App() {
     const { value } = e.target;
     setNewRow({ ...newRow, category: value, income: "", expense: "" });
   };
-  //지출 항목 필터링
+  //지출 항목 필터링/
   const expenseData = rows.filter((row) => row.category === "지출");
   // 수입 항목 필터링.
   const incomeData = rows.filter((row) => row.category === "수입");
