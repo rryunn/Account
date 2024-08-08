@@ -15,7 +15,7 @@ export default function App() {
   });
 
   const addRow = () => {
-    /*const formattedRow = {
+    /*const formattedRow = {/
       ...newRow,
       date: newRow.date ? newRow.date.toISOString().split("T")[0] : "",
     }; //문자열로 변환하여 저장하기 위함.2024-07-01 꼴로*//
